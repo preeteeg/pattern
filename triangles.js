@@ -40,6 +40,7 @@ const triangleC = (row, char = "*") => {
 };
 
 triangleC(5);
+document.write("<br/>");
 
 const triangleD = (row, char = "*") => {
   for (let i = 0; i <= row; i++) {
